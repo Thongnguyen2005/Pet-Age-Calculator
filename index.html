@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+  </head>
+  <body>
+      <section id="home">
+        <header>
+          Pet's Age Convertor
+        </header>
+        <nav class="topdiv">
+          <div id="navigate">
+            <a href="#dog"><button>Dog</button></a>
+            <a href="#cat"><button>Cat</button></a>
+            <a href="#fish"><button>Fish</button></a>
+          </div>
+        </nav>
+      </section>  
+      <br>  
+      <div id="all-conversion-sections">
+        <section id="dog" class="single_field">
+          <div id="dg">
+            <figure>
+              <img src="img/dog.jpg">
+              <figcaption>Dog's Age to Human's Age</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Dog</legend>
+                <label for="Dog">Dog's Weight</label><br>
+                <select id="dogWeight" name="dogWeight">
+                  <option value="blank">--</option>
+                  <option value="small">20 lbs or less</option>
+                  <option value="medium">21-50 lbs</option>
+                  <option value="large">51-100 lbs</option>
+                </select><br><br>
+                <label for="Dog">Dog's Age</label> <br/>
+                <input type="number" id="dogAge"> <br> <br>
+                <button id="dog" class="c" onclick="doggy()"> Convert </button> <br/><br>
+                <input type="number" id="humanAge1"> <br/>
+                <label for="Dog">Human's Age</label>
+              </fieldset>
+            </article>
+          </div>
+        </section>
+        <br>
+        <section id="cat" class="single_field">          
+          <div id="ct">
+            <figure>
+              <img src="img/cat2.jpg"/>
+              <figcaption>Cat's Age to Human's Age</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Cat</legend>
+                <label for="Cat">Cat's Age</label> <br/>
+                <input type="number" id="catAge"> <br><br>
+                <button id="cat" class="c" onclick="catty()"> Convert </button> <br><br>
+                <input type="number" id="humanAge2">  <br/>
+                <label for="Cat">Human's Age</label>    
+              </fieldset>   
+            </article>
+          </div>
+        </section>
+        <br>
+        <section id="fish" class="single_field">
+          <div id="fh">
+            <figure>
+              <img src="img/fish.jpg"/>
+              <figcaption>Fish's Age to Human's Age</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Fish</legend>
+                <label for="Fish">Species</label><br>
+                <select id="fishType" name="fishType">
+                  <option value="blank">--</option>
+                  <option value="koi">Koi</option>
+                  <option value="guppy">Guppy</option>
+                  <option value="goldFish">Gold Fish</option>
+                </select><br><br>
+                  <label for="Fish">Fish's Age</label> <br/>
+                  <input type="number" id="fishAge">  <br><br>
+                  <button id="fish" class="c" onclick="fishy()"> Convert </button> <br><br>
+                  <input type="number" id="humanAge3">  <br/>
+                  <label for="fish">Human's Age</label>
+              </fieldset>
+            </article>
+          </div>
+        </section>
+      </div>
+    <div id="go-home" class="iconbutton">
+      <a href="#home">
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg" id="gohome"/>
+      </a>
+    </div>
+    <footer>Designed by Thong Nguyen</footer>
+  </body>
+</html>
