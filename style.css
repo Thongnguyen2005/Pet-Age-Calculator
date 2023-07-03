@@ -15,6 +15,7 @@ header{
 }
 nav{
     text-align: right;
+    padding-top: auto;
 }
 #all-conversion-sections{
     display:grid;
