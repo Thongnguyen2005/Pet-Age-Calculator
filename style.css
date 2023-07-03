@@ -2,19 +2,19 @@ body {
     background-color: rgb(237, 172, 50);
     margin: 10px;
 }
-nav {
-    background-color: #553592;
-    width: auto; 
-    height: 40px;
-    text-align: right;
-}
 header{
     font-size: 30px;
     color: white;
-    padding-left: 17cm;
-    float: left;
-    font-family: Comic Sans MS, Comic Sans, Bacasime Antique;
     text-align: center;
+    font-family: Comic Sans MS, Comic Sans, Bacasime Antique;
+}
+#home{
+    background-color: #553592;
+    width: auto; 
+    height: 40px;
+}
+nav{
+    text-align: right;
 }
 #all-conversion-sections{
     display:grid;
