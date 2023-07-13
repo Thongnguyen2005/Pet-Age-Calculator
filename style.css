@@ -70,7 +70,7 @@ figcaption {
 }
 fieldset{
     width: 400px;
-    height: auto;
+    height: 250px;
 }
 legend{
     font-size: 30px;
@@ -83,4 +83,13 @@ legend{
 #gohome:hover{
     translate: 1rem;
     transition: translate 1s;
+}
+@media (max-width: 680px){
+    .single_field{
+        width: 90%;
+    }
+    fieldset{
+        width: 200px;
+        height: 240px;
+    }
 }
